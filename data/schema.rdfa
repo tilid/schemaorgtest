@@ -9900,17 +9900,11 @@ on public-vocabs@w3.org.</p>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/PropertyValueSpecification">PropertyValueSpecification</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Number">Number</a></span>
     </div>
-<div typeof="rdf:Property" resource="http://schema.org/minNumberOfPlayer">
+<div typeof="rdf:Property" resource="http://schema.org/NumberOfPlayer">
       <span class="h" property="rdfs:label">minNumberOfPlayer</span>
-      <span property="rdfs:comment">Minimum number of players in a game</span>
+      <span property="rdfs:comment">Number of players in a game</span>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Game">Game</a></span>
-      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Number">Number</a></span>
- </div>
- <div typeof="rdf:Property" resource="http://schema.org/maxNumberOfPlayer">
-      <span class="h" property="rdfs:label">maxNumberOfPlayer</span>
-      <span property="rdfs:comment">Maximum number of players in a game</span>
-      <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/Game">Game</a></span>
-      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Number">Number</a></span>
+      <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/QuantitativeValue">QuantitativeValue</a></span>
  </div>
   <div typeof="rdf:Property" resource="http://schema.org/quest">
       <span class="h" property="rdfs:label">quest</span>
@@ -9981,6 +9975,7 @@ on public-vocabs@w3.org.</p>
       <span>Domain: <a property="http://schema.org/domainIncludes" href="http://schema.org/VideoGame">VideoGame</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/Text">Text</a></span>
       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">URL</a></span>
+       <span>Range: <a property="http://schema.org/rangeIncludes" href="http://schema.org/URL">Thing</a></span>
  </div>
         <div typeof="rdf:Property" resource="http://schema.org/serverStatus">
       <span class="h" property="rdfs:label">serverStatus</span>
